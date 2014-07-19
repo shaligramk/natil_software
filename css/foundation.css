@@ -141,8 +141,8 @@ select {
 
 .column,
 .columns {
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
+/*  padding-left: 0.9375em;
+  padding-right: 0.9375em;*/
   width: 100%;
   float: left; }
 
@@ -153,6 +153,13 @@ select {
   float: left; }
 
 @media only screen {
+    .cta{
+      position: relative;
+      left: 100px;
+      top: 120px;
+    }
+
+
   .small-push-0 {
     position: relative;
     left: 0%;
@@ -383,6 +390,14 @@ select {
   .columns.small-uncentered.opposite {
     float: right; } }
 @media only screen and (min-width: 40.063em) {
+    .top {
+    padding-top: 20px;
+    }
+    .cta{
+      position: relative;
+      top: 250px;
+      left: 550px;
+    }
   .medium-push-0 {
     position: relative;
     left: 0%;
@@ -737,6 +752,12 @@ select {
     position: relative;
     left: 0%;
     right: auto; }
+
+    .cta{
+      position: relative;
+      top: 50px;
+      left: 250px;
+    }
 
   .large-pull-0 {
     position: relative;
@@ -1814,7 +1835,11 @@ button, .button {
 
 @media only screen and (min-width: 40.063em) {
   button, .button {
-    display: inline-block; } }
+    display: inline-block;
+    position: relative;
+  top: 255px;
+left: 500px;
+ } }
 .keystroke,
 kbd {
   background-color: #ededed;
