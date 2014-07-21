@@ -1,0 +1,44 @@
+		body{
+			background: #eee;
+			font-family: 'Noto Sans', sans-serif;
+		}
+		ul{
+		list-style: none;
+		padding-top: 20px;
+		}
+		.nav{
+		display: inline;
+		padding: 1.5em;
+		}
+		.top{
+			padding-top: 40px;
+		}
+
+		.row{
+			background: #fafbff;
+		}
+
+		.inline-list > li{
+			padding: 1.0em;
+			margin-top: -20px;
+		}
+		a{
+			color: #505873;
+			cursor: pointer;
+		}
+
+
+		.hero {
+			margin-top: -120px;
+		}
+		.logo{
+			letter-spacing: 1px;
+		}
+		.headline {
+			color: white;
+			position: relative;
+			top: 300px;
+			letter-spacing: 1.5px;
+			text-align: center;
+			font-size: 5vw;
+			font-weight: bold;
