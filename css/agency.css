@@ -190,8 +190,10 @@ padding: 100px 0;
 }
 section h2.section-heading {
 margin-top: 0;
-margin-bottom: 15px;
+margin-bottom: 25px;
 font-size: 40px;
+padding-bottom: 30px;
+}
 }
 section h3.section-subheading {
 margin-bottom: 75px;
