@@ -189,10 +189,13 @@ section {
 padding: 100px 0;
 }
 section h2.section-heading {
-margin-top: 0;
-margin-bottom: 25px;
+margin-top: -20px;
+margin-bottom: 30px;
 font-size: 40px;
 padding-bottom: 30px;
+}
+h3.section-subheading.text-muted {
+margin-bottom: 50px;
 }
 }
 section h3.section-subheading {
