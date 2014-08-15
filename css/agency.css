@@ -209,6 +209,7 @@ font-weight: 400;
 @media (min-width:768px) {
 section {
 padding: 100px 0;
+margin-bottom: -100px;
 }
 
 
@@ -402,6 +403,7 @@ background-color: #222;
 background-image: url(../img/map-image.png);
 background-position: center;
 background-repeat: no-repeat;
+margin-top: 60px;
 }
 section#contact .section-heading {
 color: #fff;
