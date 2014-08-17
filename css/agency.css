@@ -408,6 +408,10 @@ margin-top: 60px;
 section#contact .section-heading {
 color: #fff;
 }
+
+.about {
+	margin-top: -2px;
+}
 section#contact .form-group {
 margin-bottom: 25px;
 }
@@ -567,6 +571,17 @@ background: 0 0;
 }
 body {
 webkit-tap-highlight-color: #fed136;
+}
+
+a.service-heading{
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	color: black;
+	cursor: pointer;
+}
+a.service-heading:hover{
+	text-decoration: none;
 }
 
 .nav>li>a:hover, .nav>li>a:focus {
