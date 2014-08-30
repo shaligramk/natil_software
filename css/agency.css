@@ -882,6 +882,10 @@ body {
     margin-top: 50px;
 }
 
+.pm_list{
+    text-align: left;
+}
+
 @media (min-width: 768px){
 .navbar-nav.navbar-right:last-child {
 margin-right: -15px;
